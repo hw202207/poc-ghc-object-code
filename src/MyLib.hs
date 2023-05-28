@@ -2,10 +2,10 @@ module MyLib (someFunc) where
 
 someFunc ::
     Int ->
-    Char ->
+    -- Char ->
     String
-someFunc a b =
+someFunc a  =
     "Hello, "
         ++ show a
         ++ ", "
-        ++ [b]
+        -- ++ [b]
